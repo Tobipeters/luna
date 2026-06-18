@@ -13,7 +13,7 @@ const CAPABILITIES = [
 ] as const;
 
 const COMPANY_EMAIL = "info@lunadigitalservices.com";
-const FORMSUBMIT_ENDPOINT = `https://formsubmit.co/ajax/${COMPANY_EMAIL}`;
+const FORMSUBMIT_ENDPOINT = `https://formsubmit.co/ajax/${process.env.NEXT_PUBLIC_EMAIL_CODE}`;
 
 export default function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
