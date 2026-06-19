@@ -81,9 +81,9 @@ export const pageMetadata: Metadata = {
     description:
       'Technology Procurement, Workforce Solutions, Technology Advisory, and Managed Operations — executed at enterprise scale across Africa. Trusted by AB InBev, OPay, Sahara Group, and Sunbeth Global.',
     images: [
-      siteConfig.images.home,        // hero shot — most visually compelling
-      siteConfig.images.capabilities, // procurement shot — capability context
-      siteConfig.images.default,      // branded fallback card
+      siteConfig.images.default,        // hero shot — most visually compelling
+      siteConfig.images.home, // procurement shot — capability context
+      // siteConfig.images.default,      // branded fallback card
     ],
   },
 
@@ -96,7 +96,7 @@ export const pageMetadata: Metadata = {
       'Enterprise Technology Procurement & Workforce Solutions | Luna Digital Services',
     description:
       'Trusted by International Breweries (AB InBev), OPay, Sahara Group · 3,000+ devices procured · 200+ professionals placed · Based in Lagos, Nigeria.',
-    images: [siteConfig.images.home.url],
+    images: [siteConfig.images.default.url],
   },
 
   category: 'Technology Services',
