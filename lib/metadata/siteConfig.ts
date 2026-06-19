@@ -35,7 +35,7 @@ export const siteConfig = {
   images: {
     /** Site-wide default card */
     default: {
-      url:    'https://www.lunadigitalservices.com/og/logo-on-light.png',
+      url:    'https://www.lunadigitalservices.com/og/default.jpg',
       width:  1200,
       height: 630,
       alt:    'Luna Digital Services — Enterprise Technology Partner',
